@@ -1,0 +1,40 @@
+MainWindow, MenuBar
+{
+    color: #FFF1F1F1;
+    background-color: #FF252526;
+    padding: 0px;
+    margin: 0px;
+}
+
+MenuBar > QPushButton
+{
+    color: #FFF1F1F1;
+    background-color: #FF252526;
+    margin: 0px;
+    border: none;
+    font-weight: bold;
+}
+
+LocationMenu, LocationMenu QAbstractItemView 
+{
+    color: #FFF1F1F1;
+    background-color: #FF252526;
+    border: none;
+    padding: 5px 10px;
+    font: 15px Arial black bold, sans-serif;
+    text-align: center;
+    border-radius: 10px;
+}
+
+LocationMenu::drop-down
+{
+    padding: 5px;
+    width: 20px;
+    image: url(gui/resources/drop_dwon_light.png);
+}
+
+
+MenuBar > QPushButton:hover,
+MenuBar > QComboBox:hover
+{background-color: #FF3E3E40;}
+QPushButton#CloseButton:hover{background-color: red;}
