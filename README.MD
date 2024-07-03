@@ -18,9 +18,7 @@
     <br />
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://github.com/NonNomen/QttieSkies/issues">Report Bug or make a suggestion</a>
   </p>
 </div>
 
@@ -78,7 +76,7 @@ _TODO_
 - [ ] Setup widgets to display weather details/forcast/radar
 - [ ] Use Python requests to pull data from The National Weather Service api
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/NonNomen/QttieSkies/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
