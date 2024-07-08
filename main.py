@@ -8,14 +8,13 @@ from gui.main_window import MainWindow
 if __name__ == "__main__":
     settings = ConfigParser()
     app = QApplication(sys.argv)
-    mainWindow = MainWindow(settings)
 
-    with open(r"settings.ini") as f:
-        settings.read(f)
+    settings.read(r"settings.ini")
 
     with open(r"gui\styles\dark_styles.qss") as f:
         app.setStyleSheet(f.read())
 
+    mainWindow = MainWindow(settings)
     mainWindow.showMaximized()
 
     sys.exit(app.exec())

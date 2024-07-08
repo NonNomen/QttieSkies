@@ -26,7 +26,7 @@ class MenuBar(QWidget):
         
         #region location widgets
         layout.addWidget(LocationMenu(self, settings))
-        layout.addWidget(AddLoationBt(self))
+        layout.addWidget(AddLoationBt(self, settings))
         #endregion location widgets
 
         layout.addSpacerItem(QSpacerItem(0,0, QSizePolicy.Policy.Expanding))
